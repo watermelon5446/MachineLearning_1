@@ -1,6 +1,6 @@
 #판다스 자료구조1
 import pandas as pd
-#print(pd.__version__) 버전 확인
+#print(pd.__version__) 버전확인
 
 data1 = ['a','b','c','d','e']
 # print(data1)
@@ -25,4 +25,4 @@ df1 = pd.DataFrame(dict_data)
 df1.columns = ['string','number']
 # print(df1)
 df1.index = ['r0','r1','r2','r3','r4']
-print(df1)
+print(df1 )
